@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class Activities - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script defer src="annyang-setup.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Welcome to the Class Activities Website</h1>
+    <button class="custom-btn" onclick="window.location='stocks.html'">Stocks</button>
+    <button class="custom-btn" onclick="window.location='dogs.html'">Dogs</button>
+
+    <div id="quote-box">Loading quote...</div>
+  </main>
+
+  <div id="audio-controls">
+    <h3>Voice Commands</h3>
+    <p>"Hello", "Change the color to &lt;color&gt;", "Navigate to &lt;page&gt;"</p>
+    <button onclick="annyang.start()">Turn On Voice</button>
+    <button onclick="annyang.abort()">Turn Off Voice</button>
+  </div>
+</body>
+</html>
