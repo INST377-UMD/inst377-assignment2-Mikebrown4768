@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
+  background: lightgray;
+  transition: background 0.3s;
+}
+
+nav li:hover {
+  background-color: #999;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#audio-controls {
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
